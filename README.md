@@ -1,4 +1,4 @@
-Create to test running a nunit test in a docker container
+Created to test running a nunit test in a docker container
 
 `docker run -it -v /root/sel/nunitenv:/data -w /data -e URL="http://bing.com" -e GRID="http://10.0.10.10:4444/wd/hub" devpassis/seleniumdotnetcore dotnet test -v d`
 
