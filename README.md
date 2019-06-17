@@ -1,6 +1,6 @@
 Created to test running a nunit test in a docker container
 
-`docker run -it -v /root/sel/nunitenv:/data -w /data -e URL="http://bing.com" -e GRID="http://10.0.10.10:4444/wd/hub" devpassis/seleniumdotnetcore dotnet test -v d`
+`docker run -it -v /root/sel/nunitenv:/data -w /data -e URL="http://bing.com" -e GRID="http://10.0.10.10:4444/wd/hub" microsoft/dotnet dotnet test -v d`
 
 * -v mount volume to the /data path
 * -w change the working dir to /data
