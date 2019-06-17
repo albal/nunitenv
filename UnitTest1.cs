@@ -35,7 +35,7 @@ namespace QATest
         [Test]
         public void OpenNamedApp()
         {
-            driver.Url = Environment.GetEnvironmentVariable("URL") ;
+            driver.Url = Environment.GetEnvironmentVariable("URL");
         }
 
         [TearDown]
