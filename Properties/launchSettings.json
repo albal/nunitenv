@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "NUnitTestProject1": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "URL": "https://www.bing.com/"
+      }
+    }
+  }
+}
