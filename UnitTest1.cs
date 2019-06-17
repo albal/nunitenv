@@ -16,7 +16,7 @@ namespace QATest
         {
             URL = "https://www.msn.com/";
             ChromeOptions options = new ChromeOptions();
-            driver = new RemoteWebDriver(new Uri("http://10.209.124.131:4444/wd/hub"), options.ToCapabilities(), TimeSpan.FromSeconds(15));
+            driver = new RemoteWebDriver(new Uri(Environment.GetEnvironmentVariable("GRID")), options.ToCapabilities(), TimeSpan.FromSeconds(15));
         }
 
         [Test]
