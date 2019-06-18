@@ -31,7 +31,6 @@ namespace QATest
             driver.Url = "http://www.fghjtfgyhuijftgyhuyghuji.com/";
         }
 
-        
         [Test]
         public void OpenAppMSN()
         {
