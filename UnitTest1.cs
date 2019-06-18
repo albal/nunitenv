@@ -26,6 +26,13 @@ namespace QATest
         }
 
         [Test]
+        public void OpenAppNotExist()
+        {
+            driver.Url = "http://www.fghjtfgyhuijftgyhuyghuji.com/";
+        }
+
+        
+        [Test]
         public void OpenAppMSN()
         {
             driver.Url = URL;
