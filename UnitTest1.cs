@@ -44,6 +44,11 @@ namespace QATest
             driver.Url = Environment.GetEnvironmentVariable("URL");
         }
 
+        [Test]
+        public void RandomFailure()
+        {
+            Assert.Greater(DateTime.Now.Second, 30);
+        }
         [TearDown]
         public void EndTest()
         {
